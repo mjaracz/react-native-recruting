@@ -3,13 +3,14 @@
     "name": "react-native-portfolio",
     "slug": "react-native-portfolio",
     "version": "1.0.0",
+    "scheme": "aora",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package": "com.mjaracz.aora"
     },
     "android": {
       "adaptiveIcon": {
@@ -32,7 +33,23 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts"
+          ]
+        }
+      ],
+      [
+        "expo-video",
+        {
+          "supportsBackgroundPlayback": true,
+          "supportsPictureInPicture": true
+        }
+      ],
+      ["expo-image-picker"]
     ],
     "experiments": {
       "typedRoutes": true
