@@ -3,7 +3,7 @@
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Prerequisites 
-1. Before you can start, please configure backend using AppWrite and set up local env as fallow:
+1. Before you can start, please configure backend using AppWrite and set up local env. as fallow:
 - [AppWrite](https://appwrite.io/)
 
 ```
@@ -14,6 +14,13 @@ EXPO_PUBLIC_DB_ID='YOUR_DB_ID'
 EXPO_PUBLIC_USERS_ID='YOUR_USERS_COLLECTION_ID'
 EXPO_PUBLIC_VIDEOS_ID='YOUR_VIDEOS_COLLECTION_ID'
 EXPO_PUBLIC_STORAGE_ID='YOUR_STORAGE_ID'
+```
+
+2. Please ensure that below packages are installed globally:
+```
+npm: 10.8.9
+node: 20.16.0
+Android Emulator or IOS with installed expo
 ```
 
 ## Get started
